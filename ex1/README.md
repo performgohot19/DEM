@@ -59,7 +59,7 @@ $ ./starteasytravel.sh
 
 Wait about 5 mins to access the Easy Travel, copy the URL shown to you:
 
-**PICTURE Goes here!
+**PICTURE Goes here!**
 
 If you need the URL again, execute the command
 
