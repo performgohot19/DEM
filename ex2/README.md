@@ -25,7 +25,18 @@ As you may want to use a more intuitive name for your application, you can easil
 3. Click the Browse button (...) and select Edit.
 4. Type in the name you prefer in the text box appearing on top of the page. Note that application names must be unique.
 
-### 2.
+### 2. Selecting the appropriate JavaScript frameworks
+
+1. Select Applications from the navigation menu.
+2. Select the newly created application (the entry in your Dynatrace console will be different from the screen shot)
+
+![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/202-ModifyJSFramework.png)
+
+1. Select "Async request..."
+2. Enable the following framewoks as shown in the screen below
+3. Click on Save
+
+![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/202-ConfigFramework.png)
 
 ### 3.
 
