@@ -25,7 +25,7 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user
 
    ![USQL](https://github.com/performgohot19/DEM/blob/master/assets/502-USQL2.png)
 
-Sample queries
+**Sample queries**
 
 ```
 SELECT DATETIME(starttime, 'MM/dd/yyyy hh:mm', '30m'),AVG(useraction.visuallyCompleteTime)
