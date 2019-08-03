@@ -11,4 +11,4 @@ Read about Session Replay here: [How to use Dynatrace > Real User Monitoring > B
 
 :arrow_forward: [Next exercise: Exercise 5](/ex5)
 
-:arrow_up_small: [Back to overview](../)
+:arrow_up_small: [Back to overview](https://github.com/performgohot19/DEM)
