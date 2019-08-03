@@ -3,7 +3,13 @@ In this exercise, we will cover the basics of configuring Real User Monitoring. 
 
 More information can be found here: [How to use Dynatrace > Real User Monitoring > Setup and configuration > Web applications](https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/setup-and-configuration/web-applications/)
 
-### 1. Defining an application
+There are 4 items in this exercies:
+1. Defining an application
+2. Selecting the appropriate JavaScript frameworks
+3. Change how use actions are named
+4. Tagging a user session
+
+### Item 1. Defining an application
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/setup-and-configuration/web-applications/initial-configuration/define-your-applications-via-the-my-web-application-placeholder
 
@@ -25,7 +31,7 @@ As you may want to use a more intuitive name for your application, you can easil
 3. Click the Browse button (...) and select Edit.
 4. Type in the name you prefer in the text box appearing on top of the page. Note that application names must be unique.
 
-### 2. Selecting the appropriate JavaScript frameworks
+### Item 2. Selecting the appropriate JavaScript frameworks
 
 1. Select Applications from the navigation menu.
 2. Select the newly created application (the entry in your Dynatrace console will be different from the screen shot)
@@ -38,7 +44,7 @@ As you may want to use a more intuitive name for your application, you can easil
 
 ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/202-ConfigFramework.png)
 
-### 3. Change how use actions are named
+### Item 3. Change how use actions are named
 
 1. Select "User actions"
 2. Under "Default user action names", select the drop down "User input" for **load actions**.
@@ -47,7 +53,7 @@ As you may want to use a more intuitive name for your application, you can easil
 
 ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/203-UserActionNaming.png)
 
-### 4. Tagging a user session
+### Item 4. Tagging a user session
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/how-to-use-real-user-monitoring/cross-application-user-session-analytics/identify-individual-users-for-session-analysis/
 
