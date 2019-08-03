@@ -17,6 +17,7 @@ More information can be found here: [How to use Dynatrace > Syntheic Monitoring]
    * Malaysia
    
 Repeat Steps 1 to 7 for the 2nd browser monitor. For Step 5, Device profile
+
 5. Select iPhone X, Good 3G for Bandwidth
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor/
