@@ -3,8 +3,8 @@ In this exercise, we will cover creating a single URL synthetic test in Dynatrac
 
 More information can be found here: [How to use Dynatrace > Syntheic Monitoring](https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring)
 
-## Step 1
+### 1.
 
-## Step 2
+### 2.
 
-## Step 3
+### 3.
