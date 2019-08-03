@@ -15,12 +15,14 @@ More information can be found here: [How to use Dynatrace > Syntheic Monitoring]
    * Sydney
    * Singapore
    * Malaysia
+   
+Repeat Steps 1 to 7 for the 2nd browser monitor. For Step 5, Device profile
+5. Select iPhone X, Good 3G for Bandwidth
 
 ### 2. (Optional) Create a browser clickpath synthetic monitor for Easy Travel
 
-**You will need to install the Dynatrace recorder (chrome plugin)**
-
-**Only Chrome is supported due to the requirement for a plugin**
+ * You will need to install the **Dynatrace recorder (chrome plugin)**
+ * Only **Chrome** is supported due to the requirement to run a plugin
 
 1. Select Synthetic from the navigation menu.
 2. Click Create a synthetic monitor > Create a browser monitor.
