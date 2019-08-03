@@ -42,7 +42,30 @@ su -c '/bin/sh Dynatrace-Agent-Linux-1.0.0.sh'
 
 Reference: https://www.dynatrace.com/support/help/technology-support/operating-systems/linux/
 
-### 4. Explore the Smartscape!
+### 4. Start Easy Travel application
+
+Use PuTTy (Windows) or Terminal (Mac), ssh into the instance (IP address provided to you, please check your email)
+
+```bash
+login: perform
+password: perform
+```
+
+Execute the command
+
+```bash
+$ ./starteasytravel.sh'
+```
+
+Wait about 5 mins to access the Easy Travel, copy the URL shown to you:
+
+If you need the URL again, execute the command
+
+```bash
+$ ./showurl.sh'
+```
+
+### 5. Explore the Smartscape
 
 [4 things](https://www.dynatrace.com/support/help/get-started/4-things-youll-absolutely-love-about-dynatrace/) that you will love about Dynatrace!
 
