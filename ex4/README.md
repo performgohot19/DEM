@@ -6,3 +6,9 @@ Read about Session Replay here: [How to use Dynatrace > Real User Monitoring > B
 ### 1.
 
 ### 2.
+
+---
+
+:arrow_forward: [Next exercise: Exercise 5](/ex5)
+
+:arrow_up_small: [Back to overview](../)
