@@ -28,7 +28,11 @@ Read about Session Replay here: [How to use Dynatrace > Real User Monitoring > B
 ![SR](https://github.com/performgohot19/DEM/blob/master/assets/403-ViewSR4.png)
 
 
-### 2.
+### 2. Additional configuration for for personal data protection
+
+Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/setup-and-configuration/web-applications/additional-configuration/configure-session-replay-for-personal-data-protection/
+
+![SR](https://github.com/performgohot19/DEM/blob/master/assets/402-Privacy.png)
 
 ---
 
