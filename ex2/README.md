@@ -62,9 +62,19 @@ Once you’ve identified where usernames are located in your page source, you ca
 1. Select "User tag"
 2. Click on "Add tag (identifier) rule"
 3. Select the drop down "CSS Selector"
-4. Click on Save
+4. Paste the CSS Selector which you copied earlier from your browser's Developer Tool. Since the CSS Selector also picks up some additional text, we can apply a clean up rule.
+5. Click on Save
 
 ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/204-TaggingUserSession.png)
+
+**Hint:**
+ * CSS Selector
+ 
+ ```#loginForm\:j_idt39```
+ 
+ * Clean up rule
+ 
+ ```Hello (.*)!```
 
 ---
 
