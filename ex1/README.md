@@ -26,3 +26,6 @@ su -c '/bin/sh Dynatrace-Agent-Linux-1.0.0.sh'
 ### 3. Validate the installation in Deployment status
 
 Reference: https://www.dynatrace.com/support/help/technology-support/operating-systems/linux/
+
+Go to [Exercise 2](/ex2)
+Return to [main menu](/)
