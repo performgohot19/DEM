@@ -1,5 +1,5 @@
 ## Exercise 1
-In this exercise, we will deploy the OneAgent to a Linux EC2 instance and let the OneAgent discover what is running in the EC2 instnace.
+In this exercise, we will deploy the OneAgent to a Linux EC2 instance and let the OneAgent discover what is running in the EC2 instance.
 
 ### 1. Download the OneAgent
 
