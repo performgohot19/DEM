@@ -4,6 +4,7 @@ In this exercise, we will deploy the OneAgent to a Linux EC2 instance and let th
 ### 1. Download the OneAgent
 
 Select Deploy Dynatrace from the navigation menu.
+
 ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/101-DeployDynatrace.jpg)
 
 Click the Start installation button and select Linux.
