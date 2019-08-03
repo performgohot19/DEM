@@ -8,11 +8,15 @@ This is an **optional** exercise.
 Sample queries
 
 ```
-SELECT DATETIME(starttime, 'MM/dd/yyyy hh:mm', '30m'),AVG(useraction.visuallyCompleteTime) FROM usersession WHERE country IS "United States" GROUP BY DATETIME(starttime, 'MM/dd/yyyy hh:mm', '30m’)
+SELECT DATETIME(starttime, 'MM/dd/yyyy hh:mm', '30m'),AVG(useraction.visuallyCompleteTime)
+FROM usersession
+WHERE country IS "United States" GROUP BY DATETIME(starttime, 'MM/dd/yyyy hh:mm', '30m’)
 ```
 
 ```
-SELECT userId, SUM(totalErrorCount) FROM usersession WHERE totalErrorCount IS NOT NULL GROUP BY userId ORDER BY SUM(totalErrorCount) DESC
+SELECT userId, SUM(totalErrorCount) FROM usersession
+WHERE totalErrorCount IS NOT NULL
+GROUP BY userId ORDER BY SUM(totalErrorCount) DESC
 ```
 
 ```
