@@ -13,4 +13,4 @@ More information can be found here: [How to use Dynatrace > Real User Monitoring
 
 :arrow_forward: [Next exercise: Exercise 3](/ex3)
 
-:arrow_up_small: [Back to overview](../)
+:arrow_up_small: [Back to overview](https://github.com/performgohot19/DEM)
