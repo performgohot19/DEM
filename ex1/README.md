@@ -18,9 +18,13 @@ Choose the installer type from the drop-down list. Use the Linux shell script in
 
 Copy the command provided in the Use this command on the target host text field. Paste the command into your terminal window and execute it.
 
+![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/104-Download.jpg)
+
 ### 2. Execute the installation script
 
 Copy the command that's provided in the And run the installer with **root rights** text field.
+
+![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/105-Install.jpg)
 
 Paste the command into your terminal window and execute it. You’ll need to make the script executable before you can run it.
 
@@ -31,6 +35,8 @@ su -c '/bin/sh Dynatrace-Agent-Linux-1.0.0.sh'
 ```
 
 ### 3. Validate the installation in Deployment status
+
+![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/106-Status.jpg)
 
 Reference: https://www.dynatrace.com/support/help/technology-support/operating-systems/linux/
 
