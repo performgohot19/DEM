@@ -11,13 +11,13 @@ Read about Session Replay here: [How to use Dynatrace > Real User Monitoring > B
 4. From the Application settings menu, select Session Replay.
 5. Turn the Enable Session Replay button on.
 
-![SR](https://github.com/performgohot19/DEM/blob/master/assets/401-Configure.png)
+   ![SR](https://github.com/performgohot19/DEM/blob/master/assets/401-Configure.png)
 
 6. Exercise the application then close Chrome
 7. After a couple minutes, find your session under User Sessions
    * Hint: You can filter for sessions that have Replay enabled
 
-![SR](https://github.com/performgohot19/DEM/blob/master/assets/403-ViewSR1.png)
+   ![SR](https://github.com/performgohot19/DEM/blob/master/assets/403-ViewSR1.png)
 
 8. Replay your session
 
