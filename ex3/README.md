@@ -13,4 +13,4 @@ More information can be found here: [How to use Dynatrace > Syntheic Monitoring]
 
 :arrow_forward: [Next exercise: Exercise 4](/ex4)
 
-:arrow_up_small: [Back to overview](../)
+:arrow_up_small: [Back to overview](https://github.com/performgohot19/DEM)
