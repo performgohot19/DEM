@@ -19,11 +19,11 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user
 2. Use the Filter at the top bar, select your application's name 
 3. Click on "User Session queries"
 
-![USQL](https://github.com/performgohot19/DEM/blob/master/assets/502-USQL1.png)
+   ![USQL](https://github.com/performgohot19/DEM/blob/master/assets/502-USQL1.png)
 
 4. A default USQL query is automatically created for you based on the application you selected
 
-![USQL](https://github.com/performgohot19/DEM/blob/master/assets/502-USQL2.png)
+   ![USQL](https://github.com/performgohot19/DEM/blob/master/assets/502-USQL2.png)
 
 Sample queries
 
