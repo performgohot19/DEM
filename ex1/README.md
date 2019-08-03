@@ -1,5 +1,5 @@
 ## Exercise 1
-In this exercise, we will deploy the OneAgent to a Linux EC2 instance and let the OneAgent discover what is running in the EC2 instance.
+In this exercise, we will deploy the OneAgent to a Linux instance and let the OneAgent discover what is running in that instance.
 
 ### 1. Download the OneAgent
 
@@ -40,6 +40,11 @@ su -c '/bin/sh Dynatrace-Agent-Linux-1.0.0.sh'
 
 Reference: https://www.dynatrace.com/support/help/technology-support/operating-systems/linux/
 
+### 4. Explore the Smartscape!
+
+![Smartscape](https://dt-cdn.net/images/smartscape-horizontal-topology-2-860-6bdf46eb74.png)
+
+[4 things](https://www.dynatrace.com/support/help/get-started/4-things-youll-absolutely-love-about-dynatrace/) that you will love about Dynatrace!
 ---
 
 :arrow_forward: [Next exercise: Exercise 2](/ex2)
