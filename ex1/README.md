@@ -27,6 +27,8 @@ su -c '/bin/sh Dynatrace-Agent-Linux-1.0.0.sh'
 
 Reference: https://www.dynatrace.com/support/help/technology-support/operating-systems/linux/
 
-## Go to [Exercise 2](/ex2)
+---
 
-Return to [main menu](https://github.com/performgohot19/DEM)
+:arrow_forward: [Next exercise: Exercise 2](/ex2)
+
+:arrow_up_small: [Back to overview](../)
