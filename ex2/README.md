@@ -76,11 +76,11 @@ Once you’ve identified where usernames are located in your page source, you ca
 **Hint:**
  * CSS Selector
  
- ```#loginForm\:j_idt39```
+   ```#loginForm\:j_idt39```
  
  * Clean up rule
  
- ```Hello (.*)!```
+    ```Hello (.*)!```
 
 ---
 
