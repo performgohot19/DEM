@@ -7,4 +7,4 @@ In this exercise, we will deploy the OneAgent to a Linux EC2 instance and let th
 
 ### 3. Copy the installation command
 
-Reference: (https://www.dynatrace.com/support/help/technology-support/operating-systems/linux/)
+Reference: https://www.dynatrace.com/support/help/technology-support/operating-systems/linux/
