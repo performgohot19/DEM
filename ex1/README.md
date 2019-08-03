@@ -54,18 +54,22 @@ password: perform
 Execute the command
 
 ```bash
-$ ./starteasytravel.sh'
+$ ./starteasytravel.sh
 ```
 
 Wait about 5 mins to access the Easy Travel, copy the URL shown to you:
 
+<Insert picture>
+
 If you need the URL again, execute the command
 
 ```bash
-$ ./showurl.sh'
+$ ./showurl.sh
 ```
 
 ### 5. Explore the Smartscape
+
+While waiting for Easy Travel to start, you can explore Dynatrace and using the Smartscape, Dynatrace will automatically discover the processes and dependencies that comprises the Easy Travel application! 
 
 [4 things](https://www.dynatrace.com/support/help/get-started/4-things-youll-absolutely-love-about-dynatrace/) that you will love about Dynatrace!
 
