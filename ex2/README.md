@@ -8,3 +8,9 @@ More information can be found here: [How to use Dynatrace > Real User Monitoring
 ### 2.
 
 ### 3.
+
+---
+
+:arrow_forward: [Next exercise: Exercise 3](/ex3)
+
+:arrow_up_small: [Back to overview](../)
