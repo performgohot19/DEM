@@ -38,7 +38,33 @@ As you may want to use a more intuitive name for your application, you can easil
 
 ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/202-ConfigFramework.png)
 
-### 3.
+### 3. Change how use actions are named
+
+1. Select "User actions"
+2. Under "Default user action names", select the drop down "User input" for **load actions**.
+3. Under "Default user action names", select the drop down "User input" for **XHR actions**.
+4. Click on Save
+
+![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/203-UserActionNaming.png)
+
+### 4. Tagging a user session
+
+Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/how-to-use-real-user-monitoring/cross-application-user-session-analytics/identify-individual-users-for-session-analysis/
+
+We will be tagging users based on page metadata.
+
+This approach to user tagging works by capturing available data in your application’s page source. If you take a close look at your application’s page source, you’ll likely find that usernames are already included somewhere. Usernames may be included in the text of a DOM element, a meta tag, a JavaScript variable, or even a cookie attribute. For example, easyTravel, the Dynatrace demo application, includes the user name in a welcome message in the upper-right corner of the home page (see image below). Using the development tools that are built into most browsers, you can generate a unique CSS selector for this particular element.
+
+![User tagging based on page metadata](https://dt-cdn.net/images/usertags2-1872-eaa3cbf0fe.png)
+
+Once you’ve identified where usernames are located in your page source, you can create user tags based on the usernames. To do this, return to Dynatrace and execute the following steps:
+
+1. Select "User tag"
+2. Click on "Add tag (identifier) rule"
+3. Select the drop down "CSS Selector"
+4. Click on Save
+
+![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/204-TaggingUserSession.png)
 
 ---
 
