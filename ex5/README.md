@@ -27,21 +27,26 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user
 
 **Sample queries**
 
+Sample 1
 ```
 SELECT DATETIME(starttime, 'MM/dd/yyyy hh:mm', '30m'),AVG(useraction.visuallyCompleteTime)
 FROM usersession
 WHERE country IS "United States" GROUP BY DATETIME(starttime, 'MM/dd/yyyy hh:mm', '30m’)
 ```
 
+Sample 2
 ```
 SELECT userId, SUM(totalErrorCount) FROM usersession
 WHERE totalErrorCount IS NOT NULL
 GROUP BY userId ORDER BY SUM(totalErrorCount) DESC
 ```
 
+Sample 3
 ```
 SELECT COUNT(*) FROM usersession WHERE useraction.name = "Loading of page /orange.jsf"
 ```
+
+Are you able to describe what each sample query is trying to visualize?
 
 ---
 :arrow_up_small: [Back to overview](https://github.com/performgohot19/DEM)
