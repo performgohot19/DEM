@@ -16,17 +16,17 @@ Click the Start installation button and select Linux.
 
 Choose the installer type from the drop-down list. Use the Linux shell script installer on any Linux system that's supported by Dynatrace, regardless of the packaging system your distribution depends on.
 
-Copy the command provided in the Use this command on the target host text field. Paste the command into your terminal window and execute it.
+**Copy** the command provided in the text box. Use this command on the target host text field. **Paste** the command into your terminal window and execute it.
 
 ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/104-Download.jpg)
 
 ### 2. Execute the installation script
 
-Copy the command that's provided in the And run the installer with **root rights** text field.
+**Copy** the command that's provided in the text box And run the installer with **root rights** text field.
 
 ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/105-Install.jpg)
 
-Paste the command into your terminal window and execute it. You’ll need to make the script executable before you can run it.
+**Paste** the command into your terminal window and execute it. You’ll need to make the script executable before you can run it.
 
 **Note that you’ll need root access.**  You can use su or sudo to run the installation script. To do this, type one of the following commands into the directory where you downloaded the installation script.
 
