@@ -42,9 +42,10 @@ Reference: https://www.dynatrace.com/support/help/technology-support/operating-s
 
 ### 4. Explore the Smartscape!
 
+[4 things](https://www.dynatrace.com/support/help/get-started/4-things-youll-absolutely-love-about-dynatrace/) that you will love about Dynatrace!
+
 ![Smartscape](https://dt-cdn.net/images/smartscape-horizontal-topology-2-860-6bdf46eb74.png)
 
-[4 things](https://www.dynatrace.com/support/help/get-started/4-things-youll-absolutely-love-about-dynatrace/) that you will love about Dynatrace!
 ---
 
 :arrow_forward: [Next exercise: Exercise 2](/ex2)
