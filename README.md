@@ -9,7 +9,7 @@ Environment that we will use
 
 # Exercises
 
-**Exercise 1** [Deploy OneAgent](/ex1)
+**Exercise 1** [Deploy OneAgent & Start Easy Travel application](/ex1)
 
 **Exercise 2** [Configure Real User Monitoring in Dynatrace](/ex2)
 
