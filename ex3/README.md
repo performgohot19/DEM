@@ -8,3 +8,9 @@ More information can be found here: [How to use Dynatrace > Syntheic Monitoring]
 ### 2.
 
 ### 3.
+
+---
+
+:arrow_forward: [Next exercise: Exercise 4](/ex4)
+
+:arrow_up_small: [Back to overview](../)
