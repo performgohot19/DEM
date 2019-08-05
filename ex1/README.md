@@ -53,7 +53,8 @@ password: perform
 
 Execute the command
 
-```bash
+```
+$ cd ~
 $ ./starteasytravel.sh
 ...
 --> Deploying template "easytravel/easytravel-with-loadgen" for "easytravel-with-loadgen.yml" to project easytravel
@@ -86,6 +87,7 @@ Wait about 5 mins to access the Easy Travel, copy the URL shown to you:
 If you need the URL again, execute the command
 
 ```bash
+$ cd ~
 $ ./showurl.sh
 Easytravel URL: www-easytravel.<your public ip>.nip.io
 ```
