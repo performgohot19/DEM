@@ -55,6 +55,28 @@ Execute the command
 
 ```bash
 $ ./starteasytravel.sh
+...
+--> Deploying template "easytravel/easytravel-with-loadgen" for "easytravel-with-loadgen.yml" to project easytravel
+
+     easytravel-with-loadgen
+     ---------
+     The Dynatrace easyTravel sample application (with UEM loadgen).
+
+--> Creating resources ...
+    deploymentconfig.apps.openshift.io "mongodb" created
+    deploymentconfig.apps.openshift.io "backend" created
+    deploymentconfig.apps.openshift.io "frontend" created
+    deploymentconfig.apps.openshift.io "www" created
+    deploymentconfig.apps.openshift.io "loadgen" created
+    service "mongodb" created
+    service "backend" created
+    service "frontend" created
+    service "www" created
+    route.route.openshift.io "www" created
+--> Success
+    Access your application via route 'www-easytravel.<your public ip>.nip.io'
+    Run 'oc status' to view your app.
+
 ```
 
 Wait about 5 mins to access the Easy Travel, copy the URL shown to you:
@@ -65,6 +87,7 @@ If you need the URL again, execute the command
 
 ```bash
 $ ./showurl.sh
+Easytravel URL: www-easytravel.<your public ip>.nip.io
 ```
 
 ### 5. Explore the Smartscape
