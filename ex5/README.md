@@ -13,6 +13,14 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user
 
 ### 1. Start Easy Travel load gen
 
+```
+$ cd ~
+$ ./load.sh
+Starting Easytravel loadgen...
+deploymentconfig.apps.openshift.io/loadgen scaled
+
+```
+
 ### 2. Explore USQL
 
 1. Select User Sessions from the navigation menu
