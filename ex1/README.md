@@ -3,6 +3,16 @@ In this exercise, we will deploy the OneAgent to a Linux instance and let the On
 
 ### 1. Download the OneAgent
 
+Use PuTTy (Windows) or Terminal (Mac), ssh into the instance (IP address, userid and password will be provided to you)
+
+```bash
+login as: perform
+perform@1.1.1.1's password:
+
+```
+
+Open your browser and access the Dynatrace URL.
+
 Select Deploy Dynatrace from the navigation menu.
 
 ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/101-DeployDynatrace.jpg)
@@ -20,6 +30,24 @@ Choose the installer type from the drop-down list. Use the Linux shell script in
 
 ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/104-Download.jpg)
 
+Example: 
+
+```bash
+$  wget  -O Dynatrace-OneAgent-Linux-1.171.252.sh <follow screen shot above>
+--2019-08-07 10:17:45--  https://<URL>
+Resolving <URL>... <IP>
+Connecting to <URL> | <IP>|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 139134801 (133M) [application/octet-stream]
+Saving to: ‘Dynatrace-OneAgent-Linux-1.171.252.sh’
+
+100%[======================================>] 139,134,801 84.3MB/s   in 1.6s
+
+2019-08-07 10:17:47 (84.3 MB/s) - ‘Dynatrace-OneAgent-Linux-1.171.252.sh’ saved [139134801/139134801]
+
+$
+```
+
 ### 2. Execute the installation script
 
 (Optional) Once the download is complete, you can verify the signature by copying the command from the "Verify signature" text field, then pasting the command into your terminal window and executing it. Make sure your system is up to date, especially SSL and related certificate libraries.
@@ -32,8 +60,21 @@ Choose the installer type from the drop-down list. Use the Linux shell script in
 
 **Note that you’ll need root access.**  You can use su or sudo to run the installation script. To do this, type one of the following commands into the directory where you downloaded the installation script.
 
+Example:
+
 ```bash
-su -c '/bin/sh Dynatrace-Agent-Linux-1.0.0.sh'
+$ sudo /bin/sh Dynatrace-OneAgent-Linux-1.171.252.sh
+[sudo] password for perform:
+10:21:42 Checking root privileges...
+10:21:42 OK
+10:21:42 Installation started ...
+...
+10:22:14 Starting agents...
+10:22:14 oneagent service started
+10:22:14 Checking if agent is connected to the server...
+10:22:16 Dynatrace OneAgent has successfully connected to Dynatrace Cluster Node. After completing Dynatrace OneAgent installation on this machine, please return to your browser to complete the remainder of the installation.
+$
+
 ```
 
 ### 3. Validate the installation in Deployment status
@@ -43,13 +84,6 @@ su -c '/bin/sh Dynatrace-Agent-Linux-1.0.0.sh'
 Reference: https://www.dynatrace.com/support/help/technology-support/operating-systems/linux/
 
 ### 4. Start Easy Travel application
-
-Use PuTTy (Windows) or Terminal (Mac), ssh into the instance (IP address provided to you, please check your email)
-
-```bash
-login: perform
-password: perform
-```
 
 Execute the command
 
@@ -80,9 +114,18 @@ $ ./starteasytravel.sh
 
 ```
 
-Wait about 5 mins to access the Easy Travel, copy the URL shown to you:
+Easy Travel will take about 5 minutes to complete starting up. If you would like to check the status, you can enter this command
 
-**PICTURE Goes here!**
+```bash
+$ oc status | grep nginx -A 1 | grep "\- 1 pod"
+    deployment #1 deployed 7 minutes ago - 1 pod (warning: 3 restarts)
+```
+
+If you see the above message, it would mean that the frontend web server is ready. If you do not see anything, it means that Easy Travel is still starting and you might want to wait a few minutes more. 
+
+To access the Easy Travel portal, copy the URL shown to you:
+
+![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/107-EasyTravelURL.jpg)
 
 If you need the URL again, execute the command
 
