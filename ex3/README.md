@@ -3,7 +3,7 @@ In this exercise, we will cover creating a single URL synthetic test in Dynatrac
 
 More information can be found here: [How to use Dynatrace > Syntheic Monitoring](https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring)
 
-### 1. Create two simple browser monitors for Easy Travel
+### 1. Create a simple browser monitors for Easy Travel
 
 1. Select Synthetic from the navigation menu.
 2. Click the Create a synthetic monitor button at top right.
@@ -11,14 +11,8 @@ More information can be found here: [How to use Dynatrace > Syntheic Monitoring]
 4. On the Configure a synthetic monitor page, type in the URL of your Easy Travel application and either use the default Name or provide your own.
 5. For Device profile, leave it as the default (i.e. Desktop)
 6. For Frequency, select 5 mins
-7. Use the following 3 locations
+7. Use the following location
    * Sydney
-   * Singapore
-   * Malaysia
-   
-Repeat Steps 1 to 7 for the 2nd browser monitor. For Step 5, Device profile
-
-5. Select iPhone X, Good 3G for Bandwidth
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor/
 
@@ -34,6 +28,7 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/record-a-browser-clickpath/
 
+### 3. DISABLE or DELETE all tests when done!
 ---
 
 :arrow_forward: [Next exercise: Exercise 4](/ex4)
