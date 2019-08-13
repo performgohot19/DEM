@@ -10,7 +10,7 @@ More information can be found here: [How to use Dynatrace > Syntheic Monitoring]
 3. Click Create a browser monitor.
 4. On the Configure a synthetic monitor page, type in the URL of your Easy Travel application and either use the default Name or provide your own.
 5. For Device profile, leave it as the default (i.e. Desktop)
-6. For Frequency, select 5 mins
+6. Click on "Select Frequency & Locations". For Frequency, select 5 mins
 7. Use the following 2 locations
    * Sydney
    * Singapore
