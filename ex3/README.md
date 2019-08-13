@@ -8,13 +8,23 @@ More information can be found here: [How to use Dynatrace > Syntheic Monitoring]
 1. Select Synthetic from the navigation menu.
 2. Click the Create a synthetic monitor button at top right.
 3. Click Create a browser monitor.
+
+![SR](https://github.com/performgohot19/DEM/blob/master/assets/301-SYN-01.png)
+
 4. On the Configure a synthetic monitor page, type in the URL of your Easy Travel application and either use the default Name or provide your own.
 5. For Device profile, leave it as the default (i.e. Desktop)
+
+![SR](https://github.com/performgohot19/DEM/blob/master/assets/301-SYN-02.png)
+
 6. Click on "Select Frequency & Locations". For Frequency, select 5 mins
 7. Use the following 2 locations
    * Sydney
    * Singapore
 
+![SR](https://github.com/performgohot19/DEM/blob/master/assets/301-SYN-03.png)
+
+8. Click on "View monitor summary" to advance in the wizard
+9. Click on "Create browser monitor" to complete the creation of the synthetic monitor
 
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor/
 
@@ -31,6 +41,9 @@ Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic
 Reference: https://www.dynatrace.com/support/help/how-to-use-dynatrace/synthetic-monitoring/browser-monitors/record-a-browser-clickpath/
 
 ### 3. DISABLE or DELETE all tests when done!
+
+![SR](https://github.com/performgohot19/DEM/blob/master/assets/303-Delete.png)
+
 ---
 
 :arrow_forward: [Next exercise: Exercise 4](/ex4)
