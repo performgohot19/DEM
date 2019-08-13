@@ -38,9 +38,10 @@ As you may want to use a more intuitive name for your application, you can easil
 
    ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/202-ModifyJSFramework.png)
 
-1. Select "Async request..."
-2. Enable the following framewoks as shown in the screen below
-3. Click on Save
+3. Click the Browse button (...) and select Edit.
+4. Select "Async request..."
+5. Enable the following framewoks as shown in the screen below
+6. Click on Save
 
    ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/202-ConfigFramework.png)
 
