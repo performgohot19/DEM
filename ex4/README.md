@@ -13,7 +13,7 @@ Read about Session Replay here: [How to use Dynatrace > Real User Monitoring > B
 
    ![SR](https://github.com/performgohot19/DEM/blob/master/assets/401-Configure.png)
 
-6. Exercise the application then close Chrome
+6. Click on Save and then access Easy Travel on the browser and fire off some transactions.
 7. After a couple minutes, find your session under User Sessions
    * Hint: You can filter for sessions that have Replay enabled
 
