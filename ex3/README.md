@@ -19,7 +19,7 @@ More information can be found here: [How to use Dynatrace > Syntheic Monitoring]
 6. Click on "Select Frequency & Locations". For Frequency, select 5 mins
 7. Use the following 2 locations
    * Sydney
-   * Singapore
+   * Canbarra
 
 ![SR](https://github.com/performgohot19/DEM/blob/master/assets/301-SYN-03.png)
 
