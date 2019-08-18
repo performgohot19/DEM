@@ -6,7 +6,7 @@ More information can be found here: [How to use Dynatrace > Real User Monitoring
 There are 4 tasks in this exercies:
 - [ ] Task1 Defining an application
 - [ ] Task2 Selecting the appropriate JavaScript frameworks
-- [ ] Task3 Change how use actions are named
+- [ ] Task3 Change how user actions are named
 - [ ] Task4 Tagging a user session
 
 ### Task 1. Defining an application
@@ -45,7 +45,7 @@ As you may want to use a more intuitive name for your application, you can easil
 
    ![Deploy](https://github.com/performgohot19/DEM/blob/master/assets/202-ConfigFramework.png)
 
-### Task 3. Change how use actions are named
+### Task 3. Change how user actions are named
 
 1. Select "User actions"
 2. Under "Default user action names", select the drop down "User input" for **load actions**.
