@@ -3,7 +3,7 @@ In this exercise, we will cover the basics of configuring Real User Monitoring. 
 
 More information can be found here: [How to use Dynatrace > Real User Monitoring > Setup and configuration > Web applications](https://www.dynatrace.com/support/help/how-to-use-dynatrace/real-user-monitoring/setup-and-configuration/web-applications/)
 
-There are 4 tasks in this exercies:
+There are 3 tasks in this exercies:
 - [ ] Task1 Defining an application
 - [ ] Task2 Selecting the appropriate JavaScript frameworks
 - [ ] Task3 Tagging a user session
